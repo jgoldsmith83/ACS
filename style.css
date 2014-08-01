@@ -1,0 +1,92 @@
+<!DOCTYPE CSS>
+
+#panel2 {
+-moz-box-shadow: 10px 10px 5px #888;
+-moz-box-shadow: 10px 10px 5px #888;
+box-shadow: 10px 10px 5px #888;
+}
+
+.menus {
+background-color: #383838;
+border-radius: 45px;
+-moz-box-shadow: 10px 10px 15px black;
+-webkit-box-shadow: 10px 10px 15px black;
+box-shadow: 10px 10px 15px black;
+align: center;
+width: 60%;
+margin-top: 15px;
+margin-bottom: -20px;
+margin-left: 410px;
+text-align: left;
+list-style: none;
+position: relative;
+display: inline-block;
+float: left;
+}
+
+
+.submenu {
+background-color: #009ACD;
+opacity: .75;
+border-radius: 0 0 5px 5px;
+-moz-box-shadow: 10px 10px 15px black;
+-webkit-box-shadow: 10px 10px 15px black;
+box-shadow: 10px 10px 15px black;
+text-align: left;
+list-style: none;
+display: none;
+width: 110%;
+position: absolute;
+margin-right: 10px;
+margin-top: 2px;
+float: left;
+z-index: -10;
+}
+
+
+.menu {
+position: relative;
+display: inline-block;
+border: 0;
+z-index: 1;
+}
+
+
+.menus:hover .submenu {
+display: block;
+}
+.submenu li {
+background-color: #383838;
+}
+.links {
+text-decoration: none;
+color: white;
+}
+.subtext {
+margin-left: -25px;
+}
+#servdiv {
+width: 10%
+}
+#condiv {
+width: 10% }
+#testdiv {
+width: 10%
+}
+#disdiv {width: 10%}
+/* The submenus were not properly aligned with the parent ul's, so these are to center align them with the parents. */ 
+#servsub {
+margin-left: -35px;
+}
+#consub {
+margin-left: -35px;
+}
+#testsub {
+margin-left: -35px;
+}
+#dissub {
+margin-left: -35px;
+}
+.info {
+display: none; 
+}
